@@ -18,8 +18,12 @@ let resultado = document.getElementById("resultado")
 
     numeroDos=parseFloat(prompt("Ingrese % de paritarias :"))
     while (isNaN (numeroDos) || numeroDos ==="" )numeroDos=parseFloat(prompt("Debe ingresar otro numero :"));
+
     
-  
+    numeroTres=parseFloat(prompt("Ingrese Ajuste y otros :"))
+    while (isNaN (numeroTres) || numeroTres ==="" )numeroTres=parseFloat(prompt("Debe ingresar otro numero :"));
+
+
 }
 
 
@@ -30,8 +34,8 @@ function calcular()  {
       
         porcentaje = numeroUno * 17 / 100
         porcentajeDos = numeroUno * numeroDos / 100
-        
-        suma = numeroUno - porcentaje + porcentajeDos
+        ajuste = numeroTres
+        suma = numeroUno - porcentaje + porcentajeDos + numeroTres
 
         resultado.innerHTML= `Vas a cobrar : ` + suma; 
          }
