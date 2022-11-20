@@ -7,10 +7,10 @@ body{
     margin-top: 45px;
 }
 
-h1 {font-size: 60px;color: rgb(255, 68, 0);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1 {font-size: 60px;color: rgb(255, 0, 0);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h3 {font-size: 35px;color: rgb(0, 0, 255);font-family:monospace;
+h3 {font-size: 35px;color: rgb(0, 0, 255);font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .linea {color: aquamarine;}
 

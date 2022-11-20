@@ -37,6 +37,6 @@ function calcular()  {
         ajuste = numeroTres
         suma = numeroUno - porcentaje + porcentajeDos + numeroTres
 
-        resultado.innerHTML= `Vas a cobrar : ` + suma; 
+        resultado.innerHTML= `Vas a cobrar : $` + suma; 
          }
     
